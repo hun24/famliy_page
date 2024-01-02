@@ -1,0 +1,115 @@
+header {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: 1fr;
+  align-items: center;
+}
+
+/*h1 {
+  display: inline-block;
+  vertical-align: middle;
+  color: white;
+  margin: 0.5rem;
+  padding: 0;
+}*/
+
+#headlog {
+  display: inline-block;
+  vertical-align: middle;
+  color: white;
+  margin: 0.5rem;
+  padding: 0;
+}
+
+nav {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+li.icon {
+  flex-basis: 25%;
+}
+
+header {
+  background: cadetblue;
+  padding: 20px;
+}
+
+#home {
+  display: block;
+  text-align: center;
+  /*margin-left: 0.0rem;*/
+  padding-left: .5rem;
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  background: cadetblue;
+  font-size: xx-large;
+  text-align: left;
+}
+
+#mail {
+  display: block;
+  text-align: center;
+  margin: .25rem;
+  padding: .5rem 1rem;
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  background: teal;
+}
+
+#me {
+  text-align: center;}
+
+#login:hover {
+  background: yellowgreen;
+}
+
+#mail:hover {
+  background: yellowgreen;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/*로그인 화면*/
+
+fieldset {
+  width: 370px;
+}
+td > input{
+  padding: 10px;
+  width: 250px;
+}
+#user{
+  /*margin: 10px auto;*/
+  margin: 10px auto;
+}
+input[type="submit"] {
+  width:400px;
+  height:40px;
+  background-color: skyblue;
+  border-color: rgba(70, 209, 255, 0.192);
+}
+
+#loginn{
+  text-align: center;
+}
+
+#q1 {
+  text-align: center;
+  margin: auto auto;
+}
